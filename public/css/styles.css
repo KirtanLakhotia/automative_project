@@ -1,0 +1,163 @@
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?automobile,technology') no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+
+    /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://images.pexels.com/photos/70912/pexels-photo-70912.jpeg?cs=srgb&dl=pexels-tdcat-70912.jpg&fm=jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Section Headers */
+  .container h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #ff6600;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #222;
+  }
+  
+  /* Forms */
+  form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background: #ff6600;
+    border: none;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: #cc5200;
+  }
+  
+  /* List Styles */
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  ul li:before {
+    color: #ff6600;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+  .whatsapp-float {
+    position: fixed;
+  
+    bottom: 3rem; /* Distance from the bottom */
+    right: 1.5rem;  /* Distance from the right */
+    z-index: 1000; /* Ensures it stays above other content */
+    color: #25d366; /* WhatsApp green color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 50%; /* Makes it circular */
+    background: white; /* Background color for better visibility */
+    padding: 20px;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+    background: none;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
